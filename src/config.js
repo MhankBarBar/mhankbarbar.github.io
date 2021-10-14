@@ -51,7 +51,7 @@ module.exports = {
     },
     googleAnalytics: {
         // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-        id: '' // Please remove this and use your own tag id
+        id: 'G-TGZW27YY3W' // Please remove this and use your own tag id
     },
     hotjar: {
         id: '', //  Please remove this and use your own id
