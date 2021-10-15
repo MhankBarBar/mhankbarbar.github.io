@@ -5,7 +5,7 @@ import { hotjar } from 'react-hotjar';
 export const getInitialTheme = () => {
     if (config.themeConfig.disableSwitch) {
         //return config.themeConfig.default;
-        return config.themeConfig.themes[Math.floor(Math.random() * config.themeConfig.themeConfig.length)];
+        return config.themeConfig.themes[Math.floor(Math.random() * config.themeConfig.themes.length)];
     }
 
     if (localStorage.hasOwnProperty('ezprofileTheme')) {
@@ -18,7 +18,7 @@ export const getInitialTheme = () => {
     }
 
     //return config.themeConfig.default;
-    return config.themeConfig.themes[Math.floor(Math.random() * config.themeConfig.themeConfig.length)];
+    return config.themeConfig.themes[Math.floor(Math.random() * config.themeConfig.themes.length)];
 }
 
 export const skeleton = ({width = null, height = null, style = {}, shape = 'rounded-full', className = null}) => {
