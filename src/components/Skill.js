@@ -43,7 +43,7 @@ const Skill = () => {
                                             config.skills.map((skill, index) => (
                                                 <div key={index} className="m-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 badge-primary bg-opacity-75 rounded-full">
                                                 	<div>
-                                                		<{iconss[index]} className="mr-2"/>
+                                                		<{index == 0 ? DiPython : index == 1 ? DiJavascript1 : index == 2 ? DiNodejs : index == 3 ? DiGit : DiDjango} className="mr-2"/>
                                                 	</div>
                                                 	<div className="text-base-content-important">
                                                     	{skill}
