@@ -48,7 +48,7 @@ These instructions will get you a copy of the project and deploy your website on
   ![Workflows](https://arifszn.github.io/assets/img/hosted/ezprofile/workflows.png)
 
   - Open <code>package.json</code>, and change <code>homepage</code>'s value to <code>https://username.github.io</code>.
-  
+
     ```js
     // package.json
     {
@@ -63,7 +63,7 @@ These instructions will get you a copy of the project and deploy your website on
   - Your personal portfolio will be live at <code>username.github.io</code>.
   - Any time you commit a change to the **main** branch the website will automatically update.
 
-  
+
 You can skip the above steps and do a manual deployment by running <code>npm run deploy</code>. For more info, visit [here](https://create-react-app.dev/docs/deployment/#github-pages).
 
 As this is a create react app, you can also host your website to Netlify, Vercel, Heroku, or other popular services. Please refer to this [doc](https://create-react-app.dev/docs/deployment) for a detailed deployment guide to other services.

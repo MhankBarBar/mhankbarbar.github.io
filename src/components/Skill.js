@@ -43,23 +43,23 @@ const Skill = () => {
                                                 <div key={index} className="m-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 badge-primary bg-opacity-75 rounded-full">
                                                 	{index == 0 ?
                                                 	<div>
-                                                		<DiPython className="mr-2"/>
+                                                		<DiPython className="mr-1"/>
                                                 	</div>
                                                 	: index == 1 ?
                                                 	<div>
-                                                		<DiJavascript1 className="mr-2"/>
+                                                		<DiJavascript1 className="mr-1"/>
                                                 	</div>
                                                 	: index == 2 ?
                                                 	<div>
-                                                		<DiNodejs className="mr-2"/>
+                                                		<DiNodejs className="mr-1"/>
                                                 	</div>
                                                 	: index == 3 ?
                                                 	<div>
-                                                		<DiGit className="mr-2"/>
+                                                		<DiGit className="mr-1"/>
                                                 	</div>
                                                 	:
                                                 	<div>
-                                                		<DiDjango className="mr-2"/>
+                                                		<DiDjango className="mr-1"/>
                                                 	</div>}
                                                 	<div className="text-base-content-important">
                                                     	{skill}
