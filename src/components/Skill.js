@@ -3,7 +3,6 @@ import config from "../config";
 import { LoadingContext } from "../contexts/LoadingContext";
 import { skeleton } from "../helpers/utils";
 import { DiNodejs, DiPython, DiJavascript1, DiGit, DiDjango } from 'react-icons/di';
-const iconss = [DiPython, DiJavascript1, DiNodejs, DiGit, DiDjango]
 
 const Skill = () => {
     const [loading] = useContext(LoadingContext);
@@ -60,7 +59,7 @@ const Skill = () => {
                                                 	</div>
                                                 	:
                                                 	<div>
-                                                		<DiPython className="mr-2"/>
+                                                		<DiDjango className="mr-2"/>
                                                 	</div>}
                                                 	<div className="text-base-content-important">
                                                     	{skill}
