@@ -23,9 +23,10 @@ module.exports = {
     },
     skills: [
         'Python', // currently learning
-        'JavaScript', // currently learning
+        'Javascript', // currently learning
         'Node.js', // currently learning
         'Git', // currently learning
+        'Django', // currently learning
     ],
     experiences: [
     ],

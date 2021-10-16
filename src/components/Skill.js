@@ -2,6 +2,8 @@ import { useContext } from "react";
 import config from "../config";
 import { LoadingContext } from "../contexts/LoadingContext";
 import { skeleton } from "../helpers/utils";
+import { DiNodejs, DiPython, DiJavascript1, DiGit, DiDjango } from 'react-icons/di';
+const iconss = [DiPython, DiJavascript1, DiNodejs, DiGit, DiDjango]
 
 const Skill = () => {
     const [loading] = useContext(LoadingContext);
@@ -40,7 +42,12 @@ const Skill = () => {
                                         loading ? renderSkeleton() : (
                                             config.skills.map((skill, index) => (
                                                 <div key={index} className="m-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 badge-primary bg-opacity-75 rounded-full">
-                                                    {skill}
+                                                	<div>
+                                                		<iconss[index] className="mr-2"/>
+                                                	</div>
+                                                	<div className="text-base-content-important">
+                                                    	{skill}
+                                                    </div>
                                                 </div>
                                             ))
                                         )
