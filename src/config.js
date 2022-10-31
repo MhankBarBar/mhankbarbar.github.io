@@ -11,15 +11,15 @@ module.exports = {
     },
     social: {
         linkedin: '',
-        twitter: 'barMhank',
+        twitter: '',
         facebook: '',
         dribbble: '',
         behance: '',
         medium: '',
         devto: '',
-        website: 'https://antei.codes',
-        phone: '+6285892766102',
-        email: 'mhankbarbar@yes.my'
+        website: '',
+        phone: '',
+        email: ''
     },
     skills: [
         'Python', // currently learning
