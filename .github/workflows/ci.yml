@@ -15,7 +15,7 @@ jobs:
     - name: Set up Node 
       uses: actions/setup-node@v2
       with:
-        node-version: '14'
+        node-version: '17'
 
     - name: Cache dependencies
       uses: actions/cache@v2
@@ -25,7 +25,7 @@ jobs:
         key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
 
     - name: Install dependencies
-      run: npm install
+      run: npm install @craco/craco @testing-library/jest-dom @testing-library/react @testing-library/user-event article-api axios daisyui gh-pages moment prop-types react react-dom react-helmet-async react-hotjar react-icons react-scripts sass web-vitals
 
     - name: Build
       run: npm run build
